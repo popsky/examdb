@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>红绿点教育题库</h1>
+    <form  name="questions" method="POST" action="/edit/">
+      <!-- 下拉框 -->
+      请选择科目：      <select name="subject" form="questions"></select>
+      请选择年级：       <select name="year"  form="questions"></select>
+      请选择学期：       <select name="term" form="questions"></select>
+      请选择单元：       <select name="unit" form="questions"></select>
+      请选择知识点：  <select name="section" form="questions"></select>
+      
+        <input type="submit" value="提交">
+      </form>
+
+      <!-- 导入js文件 -->
+      <script src="/js/questions"></script>
+      <script src="/js/cascading"></script>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+var subjectsArr =["english","math"]  
+var yearsArr =[["year 1","year 2"],["year 1","year 2"]] 
+var termsArr =[[["fall term","spring term"],[]],[["fall term","spring term"],[]]] 
+var unitsArr =[[[["u1","u2"],[]],[]],[[["u1","u2"],[]],[]]] 
+var sectionsArr =[[[[["英1秋1.docx"],["英1秋2.docx"]],[]],[]],[[[["数1秋1.docx"],[]],[]],[]]]
